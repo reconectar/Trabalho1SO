@@ -1,4 +1,4 @@
-package trabalhoSO;
+package Objects;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -18,13 +18,11 @@ class LerArquivo {
 			String[] splitStr = s.split(";");
 			if (splitStr.length == 4) {
 				String nome = splitStr[0];
-				String cargo = splitStr[1];
+				char categoria = s.charAt(0);
+				Cliente cliente = new Cliente(nome, categoria);
 				int quantidadeDePaginas = Integer.parseInt(splitStr[2]);
 				String prazo = splitStr[3];
-				System.out.println(nome);
-				System.out.println(cargo);
-				System.out.println(quantidadeDePaginas);
-				System.out.println(prazo);
+				Documento documento = new Documento(cliente, quantidadeDePaginas, prazo);
 			}
 			s = br.readLine();
 		}
