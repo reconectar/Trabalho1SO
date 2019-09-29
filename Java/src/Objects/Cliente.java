@@ -4,7 +4,7 @@ public class Cliente {
     private String nome;
     private char categoria;
 
-    public Cliente(String nome, int prioridade) {
+    public Cliente(String nome, char categoria) {
         this.setNome(nome);
         this.setCategoria(categoria);
     }
@@ -17,11 +17,11 @@ public class Cliente {
         this.nome = nome;
     }
 
-    public int getCategoria() {
+    public char getCategoria() {
         return this.categoria;
     }
 
-    public void setCategoria(int categoria) throws IllegalArgumentException{
+    public void setCategoria(char categoria) throws IllegalArgumentException{
         if((categoria != 'P') || (categoria != 'C') || (categoria != 'D')) {
             this.setCategoria(categoria);
         } else {
