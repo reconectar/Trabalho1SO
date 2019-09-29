@@ -23,7 +23,7 @@ public class Cliente {
 
     public void setCategoria(char categoria) throws IllegalArgumentException{
         if((categoria != 'P') || (categoria != 'C') || (categoria != 'D')) {
-            this.setCategoria(categoria);
+            this.categoria = categoria;
         } else {
             throw new IllegalArgumentException("Somente categorias P, C ou D aceitos!");
         }
