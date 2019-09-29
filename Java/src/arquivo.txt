@@ -1,4 +1,0 @@
-James Sandero;P;160;1:20
-Jean Green;C;240;0 
-Hank McCurtis;D;70;0
-Scott Winters;P;440;2:50
