@@ -21,7 +21,7 @@ class LerArquivo {
 				char categoria = s.charAt(0);
 				Cliente cliente = new Cliente(nome, categoria);
 				int quantidadeDePaginas = Integer.parseInt(splitStr[2]);
-				String prazo =  splitStr[3];
+				String prazo = splitStr[3];
 				Documento documento = new Documento(cliente, quantidadeDePaginas, prazo);
 			}
 			s = br.readLine();
