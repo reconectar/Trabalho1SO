@@ -22,10 +22,12 @@ class LerArquivo {
 		while (s != null) {
 			String[] splitStr = s.split(";");
 			if (splitStr.length == 4) {
-				s = br.readLine();
-				 Cliente cliente = new Cliente(splitStr[0], s.charAt(0));
-				 LocalDateTime prazo = LocalDateTime.parse(splitStr[3], customFormatter);
-				 documento = new Documento(Integer.parseInt(splitStr[2]), cliente, prazo);
+				String nome = splitStr[0];
+				char categoria = s.charAt(0);
+				Cliente cliente = new Cliente(nome, categoria);
+				int quantidadeDePaginas = Integer.parseInt(splitStr[2]);
+				String prazo = splitStr[3];
+				Documento documento = new Documento(cliente, quantidadeDePaginas, prazo);
 			}
 			s = br.readLine();
 		}
