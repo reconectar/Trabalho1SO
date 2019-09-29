@@ -31,9 +31,6 @@ class LerArquivo {
 		}
 
 		br.close();
-		
-		System.out.println(numeroInicialDeDocumentos);
-
 	}
 }
 
