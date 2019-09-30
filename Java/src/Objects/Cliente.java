@@ -28,4 +28,9 @@ public class Cliente {
             throw new IllegalArgumentException("Somente categorias P, C ou D aceitos!");
         }
     }
+
+    @Override
+    public String toString() {
+        return this.getNome() + "(" + this.getCategoria() + ")";
+    }
 }

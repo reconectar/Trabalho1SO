@@ -9,6 +9,8 @@ public class Impressora {
     private static int id = 0;
     private int idImpressora;
     private List <Documento> documentos;
+    private static final float TEMPO_POR_PAGINA = 1.5F;
+    private static final float TEMPO_ENTRE_IMPRESSAO = 8F;
 
     public Impressora(){
         id++;
@@ -32,5 +34,15 @@ public class Impressora {
         this.documentos.add(documento);
     }
 
-    // TODO Fazer método Imprimir
+    public float imprimir(){
+        float tempoTotal = 0;
+        if(!documentos.isEmpty()) {
+            tempoTotal = TEMPO_ENTRE_IMPRESSAO + TEMPO_POR_PAGINA * documentos.get(0).getPaginas();
+            documentos.remove(0);
+            return tempoTotal;
+        }else{
+            System.out.println("Fila de impressão vazia!");
+            return tempoTotal;
+        }
+    }
 }

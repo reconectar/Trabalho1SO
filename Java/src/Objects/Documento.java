@@ -1,15 +1,13 @@
 package Objects;
 
-import Objects.Cliente;
-
-import java.time.LocalDateTime;
+import java.time.LocalTime;
 
 public class Documento {
     private int paginas;
     private Cliente proprietario;
-    private LocalDateTime prazo;
+    private LocalTime prazo;
 
-    public Documento(int paginas, Cliente proprietario, LocalDateTime prazo) {
+    public Documento(int paginas, Cliente proprietario, LocalTime prazo) {
         this.setPaginas(paginas);
         this.setProprietario(proprietario);
         this.setPrazo(prazo);
@@ -35,11 +33,18 @@ public class Documento {
         this.proprietario = proprietario;
     }
 
-    public LocalDateTime getPrazo() {
+    public LocalTime getPrazo() {
         return prazo;
     }
 
-    public void setPrazo(LocalDateTime prazo) {
+    public void setPrazo(LocalTime prazo) {
         this.prazo = prazo;
+    }
+
+    @Override
+    public String toString(){
+        return "Proprietário: " + this.getProprietario().toString() + System.lineSeparator() +
+                "Paginas: " + this.getPaginas() + System.lineSeparator() +
+                "Prazo: " + this.getPrazo().toString();
     }
 }
