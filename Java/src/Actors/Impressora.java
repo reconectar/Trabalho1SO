@@ -1,6 +1,7 @@
 package Actors;
 
 import Objects.Documento;
+import Objects.LeitorDeArquivo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,10 @@ public class Impressora {
         documentos = new ArrayList<Documento>();
     }
 
+    public void addDocumentos(List<Documento> documentos) {
+        this.documentos = documentos;
+    }
+
     public int getIdImpressora() {
         return idImpressora;
     }
@@ -26,23 +31,41 @@ public class Impressora {
         this.idImpressora = idImpressora;
     }
 
-    public List<Documento> getDocumentos() {
-        return documentos;
-    }
-
     public void addDocumento(Documento documento) {
         this.documentos.add(documento);
     }
 
-    public float imprimir(){
+    private float imprimir(){
         float tempoTotal = 0;
-        if(!documentos.isEmpty()) {
-            tempoTotal = TEMPO_ENTRE_IMPRESSAO + TEMPO_POR_PAGINA * documentos.get(0).getPaginas();
-            documentos.remove(0);
-            return tempoTotal;
-        }else{
-            System.out.println("Fila de impressão vazia!");
-            return tempoTotal;
+        tempoTotal = TEMPO_ENTRE_IMPRESSAO + TEMPO_POR_PAGINA * documentos.get(0).getPaginas();
+        documentos.remove(0);
+        return tempoTotal;
+    }
+
+    public float[] imprimirTodos(){
+        float tempoTotalTodos = 0;
+        int cont = 0;
+        int tamanho = documentos.size();
+        float[] retornos = new float[tamanho];
+        float tempoTotal;
+        while(!documentos.isEmpty()){
+            tempoTotal = this.imprimir();
+            System.out.println("Tempo de retorno Doc" + (cont+1) + ": " + (tempoTotal+tempoTotalTodos));
+            retornos[cont] = tempoTotal+tempoTotalTodos;
+            tempoTotalTodos += tempoTotal;
+            cont++;
         }
+        float media = 0;
+        for(cont = 0; cont < tamanho; cont++){
+            media += retornos[cont];
+        }
+        System.out.println("Media de retorno da impressora" + this.getIdImpressora() + ": " + (media/tamanho));
+        System.out.println("Media de resposta da impressora" + this.getIdImpressora() + ": " + ((media-retornos[retornos.length-1])/tamanho));
+        System.out.println("Tempo total de impressao da impressora" + this.getIdImpressora() + ": " + tempoTotalTodos);
+        return retornos;
+        // Observações sobre os usos deste array retornado:
+        // ultimo elemento = tempo total
+        // soma dos elementos + divisao pelo numero de elementos = media de retorno
+        // (soma dos elementos - ultimo elemento) dividido pelo numero de elementos = media de resposta
     }
 }

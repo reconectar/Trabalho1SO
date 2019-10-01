@@ -4,24 +4,31 @@ import java.io.*;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.List;
 
 public class LeitorDeArquivo {
 
-	public LeitorDeArquivo() {
-		this.numeroInicialDeDocumentos = 0;
+	private int numeroDeDocumentos;
+
+	private static LeitorDeArquivo singleton = new LeitorDeArquivo();
+
+	private LeitorDeArquivo() {
+		this.numeroDeDocumentos = 0;
 	}
 
-	private int numeroInicialDeDocumentos;
+	public static LeitorDeArquivo getInstance() {
+		return singleton;
+	}
 
 	public int getNumeroInicialDeDocumentos() {
-		return this.numeroInicialDeDocumentos;
+		return this.numeroDeDocumentos;
 	}
 
-	private void setNumeroInicialDeDocumentos(int numeroInicialDeDocumentos) {
-		this.numeroInicialDeDocumentos = numeroInicialDeDocumentos;
+	private void setNumeroInicialDeDocumentos(int numeroDeDocumentos) {
+		this.numeroDeDocumentos = numeroDeDocumentos;
 	}
 
-	public ArrayList<Documento> lerArquivo() throws IOException {
+	public List<Documento> lerArquivo() throws IOException {
 		DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("H:mm");
 		InputStream is = new FileInputStream("arquivo.txt");
 		InputStreamReader isr = new InputStreamReader(is);
@@ -30,18 +37,17 @@ public class LeitorDeArquivo {
 		String s = br.readLine();
 		setNumeroInicialDeDocumentos(Integer.parseInt(s));
 
-		ArrayList<Documento> documentos = new ArrayList<Documento>();
+		List<Documento> documentos = new ArrayList<Documento>();
 
 		while (s != null) {
 			String[] splitStr = s.split(";");
 			if (splitStr.length == 5) {
-				Cliente cliente = new Cliente(splitStr[0], s.charAt(0));
+				Cliente cliente = new Cliente(splitStr[0], splitStr[1].charAt(0));
 				LocalTime prazo = null;
 				if (!splitStr[3].equals("0")){
 					prazo = LocalTime.parse((splitStr[3]), customFormatter);
 				}
 				Documento documento = new Documento(Integer.parseInt(splitStr[2]), cliente, prazo);
-				documento.toString();
 				documentos.add(documento);
 			}
 			s = br.readLine();
