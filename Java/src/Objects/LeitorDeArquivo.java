@@ -22,7 +22,7 @@ public class LeitorDeArquivo {
 	}
 
 	public ArrayList<Documento> lerArquivo() throws IOException {
-		DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("HH:mm");
+		DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("H:mm");
 		InputStream is = new FileInputStream("arquivo.txt");
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
@@ -35,11 +35,11 @@ public class LeitorDeArquivo {
 		while (s != null) {
 			String[] splitStr = s.split(";");
 			if (splitStr.length == 5) {
-				s = br.readLine();
 				Cliente cliente = new Cliente(splitStr[0], s.charAt(0));
-				System.out.println(cliente.toString());
-				LocalTime prazo = LocalTime.parse(splitStr[3], customFormatter);
-				System.out.println(prazo.toString());
+				LocalTime prazo = null;
+				if (!splitStr[3].equals("0")){
+					prazo = LocalTime.parse((splitStr[3]), customFormatter);
+				}
 				Documento documento = new Documento(Integer.parseInt(splitStr[2]), cliente, prazo);
 				documento.toString();
 				documentos.add(documento);

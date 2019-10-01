@@ -45,6 +45,6 @@ public class Documento {
     public String toString(){
         return "Proprietário: " + this.getProprietario().toString() + System.lineSeparator() +
                 "Paginas: " + this.getPaginas() + System.lineSeparator() +
-                "Prazo: " + this.getPrazo().toString();
+                "Prazo: " + this.getPrazo();
     }
 }
