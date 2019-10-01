@@ -63,7 +63,7 @@ public class Impressora {
         System.out.println("Media de resposta da impressora" + this.getIdImpressora() + ": " + ((media-retornos[retornos.length-1])/tamanho));
         System.out.println("Tempo total de impressao da impressora" + this.getIdImpressora() + ": " + tempoTotalTodos);
         return retornos;
-        // Observações sobre os usos deste array retornado:
+        // Observacoes sobre os usos deste array retornado:
         // ultimo elemento = tempo total
         // soma dos elementos + divisao pelo numero de elementos = media de retorno
         // (soma dos elementos - ultimo elemento) dividido pelo numero de elementos = media de resposta
