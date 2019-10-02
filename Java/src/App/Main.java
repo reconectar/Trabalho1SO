@@ -74,6 +74,7 @@ public class Main {
             }
 
             //Exibindo resultados da impressao
+            impressora1.imprimirTodos();
             if (!impressora2.getDocumentos().isEmpty()) {
                 impressora2.imprimirTodos();
             }
