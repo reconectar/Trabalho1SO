@@ -1,0 +1,275 @@
+274
+Geovane Branco;D;80;0:51;8:00
+João Victor Pereira;C;60;0:00;8:02
+Maria Eduarda Antunes;P;80;0:00;8:05
+João Victor Carvalho;C;80;0:00;8:08
+Otávio Ramires;C;40;0:00;8:10
+Lucas Rocha;P;20;0:00;8:12
+Daniel Antunes;P;80;2:01;8:14
+André Ramires;P;20;0:00;8:16
+Otávio de Faria;D;160;0:00;8:18
+Lucas Antunes;P;40;0:00;8:22
+André Miranda;P;40;3:06;8:23
+Leonardo Carvalho;C;160;0:32;8:26
+Otávio Branco;C;20;0:00;8:29
+André de Faria;C;160;0:00;8:29
+Otávio Gonçalves;C;20;0:00;8:31
+Daniel Ramires;D;160;0:00;8:35
+Otávio de Faria;D;40;0:00;8:35
+João Victor Carvalho;C;40;3:48;8:38
+André Morcatti;P;60;1:56;8:38
+Geovane Neves;C;120;0:00;8:39
+Arthur Ramires;D;80;0:00;8:40
+João Victor Ramires;D;120;0:00;8:40
+André Rocha;D;80;2:44;8:41
+Geovane Neves;C;60;6:03;8:43
+Felipe Rocha;P;80;0:00;8:45
+André Miranda;P;120;0:00;8:46
+Otávio de Faria;D;40;0:00;8:50
+Leonardo Rocha;P;40;0:00;8:52
+Isabela Pereira;C;60;0:00;8:53
+André Pereira;C;120;5:34;8:56
+Leonardo Morcatti;P;40;2:06;8:57
+Carla Neves;C;120;5:48;8:57
+Lucas de Faria;C;60;7:51;8:59
+Carla Pereira;C;120;0:00;8:59
+Carla D'Abreu;P;120;0:00;9:01
+João Victor Carvalho;C;80;2:43;9:02
+Arthur de Faria;C;20;7:10;9:03
+André Morcatti;P;20;0:00;9:04
+Daniel D'Abreu;P;40;0:00;9:07
+Daniel Ramires;D;40;0:00;9:09
+Lucas Morcatti;P;80;0:00;9:10
+Leonardo Pereira;C;80;0:00;9:12
+Isabela Neves;C;80;0:00;9:15
+Arthur Miranda;D;80;0:00;9:17
+João Victor Morcatti;P;160;0:00;9:19
+André Antunes;D;160;0:00;9:21
+Maria Eduarda Morcatti;P;80;1:36;9:23
+André Neves;D;80;0:00;9:24
+Maria Eduarda Gonçalves;D;20;0:00;9:26
+João Victor Miranda;D;40;0:00;9:29
+Leonardo D'Abreu;P;80;6:47;9:29
+Lucas Gonçalves;D;40;0:00;9:31
+Felipe Morcatti;P;80;2:46;9:34
+Geovane Gonçalves;D;80;0:00;9:37
+Daniel Neves;C;120;0:00;9:38
+Leonardo D'Abreu;P;120;1:45;9:40
+Arthur Morcatti;P;80;0:00;9:42
+João Victor de Faria;C;160;0:00;9:44
+Maria Eduarda Morcatti;P;40;0:00;9:45
+Otávio Rocha;P;160;6:25;9:46
+João Victor Carvalho;C;60;7:04;9:49
+Otávio Morcatti;D;120;4:29;9:49
+Leonardo D'Abreu;P;120;0:00;9:51
+Arthur Ramires;D;80;0:00;9:54
+Geovane Rocha;P;40;0:00;9:54
+Isabela Rocha;P;160;0:00;9:55
+Geovane Pereira;C;120;0:00;9:58
+Lucas Miranda;D;120;0:00;10:00
+Felipe D'Abreu;P;40;0:15;10:03
+Carla Neves;C;60;0:50;10:05
+Carla Rocha;P;20;0:00;10:05
+André D'Abreu;D;40;5:17;10:08
+Lucas Ramires;D;20;5:55;10:10
+Felipe Antunes;P;20;0:00;10:12
+Geovane Miranda;D;40;0:00;10:14
+Geovane Carvalho;C;60;0:00;10:16
+André Gonçalves;P;160;2:45;10:16
+Isabela D'Abreu;P;160;2:48;10:16
+André D'Abreu;D;40;0:00;10:17
+Carla Neves;C;40;0:00;10:19
+Daniel Gonçalves;D;40;0:00;10:21
+André Branco;P;120;0:00;10:23
+Carla Pereira;C;240;0:34;10:26
+Daniel Gonçalves;D;160;0:00;10:29
+Leonardo de Faria;C;120;0:00;10:33
+João Victor Miranda;D;120;0:08;10:36
+Arthur Miranda;D;80;0:00;10:39
+Felipe Gonçalves;D;40;0:00;10:40
+Daniel Antunes;P;40;0:00;10:43
+João Victor Rocha;P;40;0:00;10:46
+Leonardo Pereira;C;40;0:00;10:46
+Felipe Branco;D;160;0:00;10:46
+Arthur Miranda;D;20;0:00;10:48
+Otávio Antunes;P;40;5:33;10:50
+Lucas de Faria;C;40;6:41;10:52
+Carla Antunes;P;80;0:00;10:55
+Geovane Antunes;P;20;0:00;10:57
+João Victor Morcatti;P;160;4:24;11:00
+Arthur Neves;C;160;2:45;11:02
+Felipe Branco;D;160;0:00;11:04
+Felipe Miranda;D;160;4:36;11:07
+Maria Eduarda Branco;D;80;0:00;11:08
+Lucas D'Abreu;P;160;0:00;11:08
+João Victor D'Abreu;P;80;0:00;11:10
+Geovane Antunes;P;40;0:00;11:13
+Carla Rocha;P;80;2:26;11:16
+João Victor Gonçalves;D;120;0:00;11:18
+Arthur Antunes;P;160;0:00;11:19
+João Victor Rocha;P;20;2:41;11:19
+Arthur de Faria;C;40;0:00;11:19
+Maria Eduarda Neves;C;160;0:00;11:19
+Arthur de Faria;C;40;0:25;11:20
+Leonardo Morcatti;P;80;0:00;11:24
+André Antunes;D;160;0:00;11:26
+Otávio Morcatti;D;20;0:00;11:27
+Leonardo Gonçalves;D;80;0:00;11:28
+Carla Gonçalves;D;80;6:51;11:29
+Maria Eduarda Miranda;D;40;0:00;11:31
+Daniel D'Abreu;P;120;3:55;11:33
+Maria Eduarda Antunes;P;160;0:00;11:34
+Leonardo Pereira;C;20;0:00;11:34
+Carla Ramires;D;20;0:00;11:35
+Arthur Pereira;C;80;0:00;11:38
+Felipe D'Abreu;P;80;0:00;11:41
+Leonardo de Faria;C;120;0:00;11:44
+André Carvalho;C;80;0:00;11:47
+André Neves;C;40;2:13;11:50
+André D'Abreu;D;120;0:00;11:52
+Felipe Pereira;C;120;0:00;11:52
+Daniel Morcatti;P;20;0:00;11:52
+Arthur de Faria;C;80;0:00;11:55
+André de Faria;C;80;0:00;11:56
+Carla Miranda;D;60;4:58;11:58
+Arthur D'Abreu;P;120;0:00;12:00
+André Neves;C;120;2:19;12:02
+Lucas D'Abreu;P;20;1:02;12:04
+Arthur Carvalho;C;80;0:00;12:07
+Leonardo de Faria;C;60;1:04;12:11
+Carla Morcatti;P;40;4:00;12:11
+Otávio Ramires;C;40;0:00;12:11
+Arthur Neves;C;80;0:00;12:14
+Otávio Antunes;P;60;0:00;12:17
+Leonardo Branco;D;120;0:00;12:20
+Lucas Branco;D;160;2:20;12:21
+Daniel Gonçalves;D;120;6:08;12:25
+Leonardo D'Abreu;P;60;0:00;12:28
+Carla Ramires;D;160;0:00;12:31
+André Antunes;D;60;1:02;12:32
+Maria Eduarda de Faria;C;160;1:10;12:32
+Carla Gonçalves;D;80;5:16;12:34
+Arthur Gonçalves;D;80;0:00;12:37
+Leonardo Ramires;D;40;0:00;12:40
+Geovane Miranda;D;40;0:00;12:43
+Lucas Gonçalves;D;120;0:00;12:45
+Arthur Carvalho;C;40;0:00;12:47
+Leonardo Branco;D;40;0:00;12:48
+Arthur D'Abreu;P;60;0:00;12:50
+André Branco;P;80;0:00;12:51
+Geovane Branco;D;120;1:04;12:52
+André D'Abreu;D;60;6:10;12:52
+Lucas Neves;C;80;0:00;12:56
+Daniel Morcatti;P;40;1:19;12:57
+Otávio Branco;C;40;4:17;13:01
+Carla de Faria;C;160;0:00;13:02
+Geovane Carvalho;C;40;3:40;13:05
+Lucas Miranda;D;80;1:11;13:05
+Isabela Carvalho;C;40;0:00;13:06
+Carla Miranda;D;80;0:00;13:07
+André Morcatti;P;80;0:00;13:08
+Arthur Morcatti;P;80;5:47;13:11
+Lucas Gonçalves;D;40;0:00;13:14
+Otávio Morcatti;D;20;0:00;13:17
+João Victor Pereira;C;120;0:00;13:19
+João Victor Ramires;D;120;0:00;13:19
+Daniel Miranda;D;40;3:07;13:19
+Maria Eduarda Neves;C;160;0:30;13:23
+João Victor Miranda;D;80;7:05;13:25
+Arthur Miranda;D;160;0:50;13:27
+Otávio Miranda;C;20;2:35;13:30
+Felipe Ramires;D;40;3:14;13:33
+Felipe Antunes;P;80;0:00;13:34
+Lucas Ramires;D;40;0:00;13:37
+João Victor Carvalho;C;80;0:00;13:38
+Arthur Antunes;P;40;0:00;13:39
+Arthur Carvalho;C;80;4:39;13:41
+Otávio Ramires;C;80;0:00;13:43
+André Rocha;D;40;0:00;13:45
+Arthur Miranda;D;120;0:07;13:46
+Felipe Morcatti;P;200;0:00;13:47
+Lucas Ramires;D;60;0:00;13:49
+Maria Eduarda Gonçalves;D;60;7:13;13:52
+Carla Neves;C;40;0:00;13:52
+Isabela de Faria;C;80;0:00;13:53
+Isabela Antunes;P;200;0:00;13:54
+Felipe Branco;D;40;0:00;13:54
+Daniel Morcatti;P;240;0:00;13:55
+André Miranda;P;80;0:00;13:58
+Lucas Pereira;C;20;0:00;13:59
+Maria Eduarda Rocha;P;160;0:00;13:59
+Daniel Ramires;D;60;0:00;14:00
+André Rocha;D;240;0:00;14:01
+Lucas Neves;C;60;0:00;14:03
+Felipe Neves;C;40;0:00;14:07
+André Rocha;D;80;0:00;14:10
+Arthur Pereira;C;160;5:26;14:10
+Geovane Pereira;C;120;2:34;14:11
+André de Faria;C;80;0:56;14:14
+Arthur Gonçalves;D;120;0:00;14:14
+Carla Pereira;C;40;0:00;14:16
+André Neves;D;60;1:01;14:19
+Carla Ramires;D;80;0:00;14:21
+Arthur Neves;C;160;7:21;14:23
+Arthur Gonçalves;D;80;0:00;14:24
+Geovane de Faria;C;80;4:40;14:26
+André Antunes;D;60;0:00;14:29
+Carla Ramires;D;160;0:00;14:33
+Carla Ramires;D;80;0:00;14:34
+Arthur de Faria;C;80;4:22;14:37
+João Victor Miranda;D;120;2:36;14:38
+Daniel Antunes;P;160;0:00;14:41
+Geovane Branco;D;20;0:00;14:43
+Isabela Gonçalves;D;40;0:00;14:45
+Daniel Pereira;C;40;0:00;14:46
+Arthur Ramires;D;40;0:00;14:49
+João Victor Branco;D;20;7:03;14:51
+André Antunes;D;40;0:00;14:54
+Geovane Rocha;P;160;1:18;14:54
+João Victor Morcatti;P;120;0:00;14:56
+Isabela de Faria;C;80;2:21;14:59
+Daniel Gonçalves;D;120;2:48;15:02
+Maria Eduarda Rocha;P;80;2:44;15:05
+Geovane Ramires;D;80;0:00;15:05
+Isabela Gonçalves;D;60;0:00;15:09
+Carla Miranda;D;20;0:00;15:11
+Isabela Morcatti;P;80;0:00;15:13
+Maria Eduarda Gonçalves;D;80;0:54;15:14
+Isabela Pereira;C;80;0:00;15:17
+Otávio D'Abreu;P;160;0:20;15:18
+João Victor Miranda;D;40;0:00;15:21
+Otávio Rocha;P;80;0:00;15:23
+Carla Ramires;D;80;0:00;15:26
+Geovane Carvalho;C;160;4:45;15:26
+Daniel Ramires;D;20;5:16;15:29
+Lucas Ramires;D;80;3:46;15:32
+Maria Eduarda D'Abreu;P;60;0:00;15:33
+Leonardo Carvalho;C;60;6:30;15:34
+Lucas Pereira;C;80;0:00;15:37
+Otávio Rocha;P;40;0:00;15:38
+Felipe Morcatti;P;20;0:00;15:41
+Isabela Antunes;P;60;0:00;15:42
+Isabela Ramires;D;80;7:22;15:45
+Arthur Branco;D;20;0:00;15:48
+João Victor Rocha;P;80;5:53;15:51
+Isabela Miranda;D;60;0:17;15:55
+Otávio Carvalho;D;40;0:00;15:57
+Isabela de Faria;C;60;0:00;15:59
+João Victor Neves;C;80;0:00;16:03
+Arthur Neves;C;60;0:49;16:03
+Daniel Neves;C;80;0:00;16:06
+Maria Eduarda Miranda;D;120;0:26;16:09
+Arthur Ramires;D;80;4:38;16:10
+Daniel Pereira;C;120;0:00;16:11
+João Victor Neves;C;80;0:00;16:11
+Geovane de Faria;C;160;0:00;16:12
+Lucas Neves;C;80;0:00;16:15
+Arthur Gonçalves;D;40;0:00;16:16
+Isabela Gonçalves;D;80;0:00;16:18
+João Victor D'Abreu;P;160;0:19;16:21
+Leonardo Antunes;P;80;0:58;16:24
+Carla Pereira;C;20;0:00;16:26
+Daniel Carvalho;C;80;0:00;16:28
+Maria Eduarda Pereira;C;160;0:00;16:31
+Isabela Gonçalves;D;60;0:00;16:32
+Felipe Pereira;C;20;0:00;16:34

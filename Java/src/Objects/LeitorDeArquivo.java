@@ -30,7 +30,7 @@ public class LeitorDeArquivo {
 
 	public List<Documento> lerArquivo() throws IOException {
 		DateTimeFormatter customFormatter = DateTimeFormatter.ofPattern("H:mm");
-		InputStream is = new FileInputStream("arquivo.txt");
+		InputStream is = new FileInputStream("dadosImpressora20192.txt");
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
 

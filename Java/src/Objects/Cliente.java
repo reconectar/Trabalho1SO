@@ -8,9 +8,9 @@ public class Cliente {
     public Cliente(String nome, char categoria) {
         this.setNome(nome);
         this.setCategoria(categoria);
-        if(this.getCategoria() == 'D'){
+        if (this.getCategoria() == 'D') {
             this.setPrioridade(1);
-        } else if (this.getCategoria() == 'C'){
+        } else if (this.getCategoria() == 'C') {
             this.setPrioridade(2);
         } else {
             this.setPrioridade(3);
@@ -29,8 +29,8 @@ public class Cliente {
         return this.categoria;
     }
 
-    public void setCategoria(char categoria) throws IllegalArgumentException{
-        if((categoria != 'P') || (categoria != 'C') || (categoria != 'D')) {
+    public void setCategoria(char categoria) throws IllegalArgumentException {
+        if ((categoria != 'P') || (categoria != 'C') || (categoria != 'D')) {
             this.categoria = categoria;
         } else {
             throw new IllegalArgumentException("Somente categorias P, C ou D aceitos!");

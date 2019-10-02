@@ -17,7 +17,7 @@ public class Documento {
         return paginas;
     }
 
-    public void setPaginas(int paginas) throws IllegalArgumentException{
+    public void setPaginas(int paginas) throws IllegalArgumentException {
         if (paginas <= 0) {
             throw new IllegalArgumentException("Numero de paginas nao pode ser menor ou igual a 0!");
         } else {
@@ -42,7 +42,7 @@ public class Documento {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Proprietário: " + this.getProprietario().toString() + System.lineSeparator() +
                 "Paginas: " + this.getPaginas() + System.lineSeparator() +
                 "Prazo: " + this.getPrazo();
