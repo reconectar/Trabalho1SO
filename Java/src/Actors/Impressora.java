@@ -48,20 +48,27 @@ public class Impressora {
         int tamanho = documentos.size();
         float[] retornos = new float[tamanho];
         float tempoTotal;
+        System.out.println("");
+        System.out.println("***************** Impressora" + this.getIdImpressora() + " *****************");
         while(!documentos.isEmpty()){
+            String proprietario = documentos.get(0).getProprietario().toString();
             tempoTotal = this.imprimir();
-            System.out.println("Tempo de retorno Doc" + (cont+1) + ": " + (tempoTotal+tempoTotalTodos));
+            System.out.println("Tempo de retorno Doc" + (cont+1) + ": " + (tempoTotal+tempoTotalTodos) + " - "+ proprietario);
             retornos[cont] = tempoTotal+tempoTotalTodos;
             tempoTotalTodos += tempoTotal;
             cont++;
         }
+        System.out.println("");
         float media = 0;
         for(cont = 0; cont < tamanho; cont++){
             media += retornos[cont];
         }
-        System.out.println("Media de retorno da impressora" + this.getIdImpressora() + ": " + (media/tamanho));
-        System.out.println("Media de resposta da impressora" + this.getIdImpressora() + ": " + ((media-retornos[retornos.length-1])/tamanho));
-        System.out.println("Tempo total de impressao da impressora" + this.getIdImpressora() + ": " + tempoTotalTodos);
+        System.out.println("Media de retorno da impressora: " + (media/tamanho));
+        System.out.println("Media de resposta da impressora: " + ((media-retornos[retornos.length-1])/tamanho));
+        System.out.println("Tempo total de impressao da impressora: " + tempoTotalTodos);
+        System.out.println("************************************************");
+
+
         return retornos;
         // Observacoes sobre os usos deste array retornado:
         // ultimo elemento = tempo total

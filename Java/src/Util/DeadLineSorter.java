@@ -4,6 +4,7 @@ import Objects.Documento;
 
 import java.util.Comparator;
 
+//SJF de prazo
 public class DeadLineSorter implements Comparator<Documento> {
     public int compare(Documento o1, Documento o2) {
         if(o1.getPrazo() == null){

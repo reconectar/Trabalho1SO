@@ -30,22 +30,26 @@ public class Secretaria {
         this.documentos = documentos;
     }
 
-    // TODO Fazer as logicas de ordenacao
     //Metodos para ordenacao
     public List<Documento> ordenarPorPaginasSJF() {        
         this.getDocumentos().sort(new PageSorter());        
         return this.getDocumentos();
     }
 
-    //Incompleto, ordenador sem logica
     public List<Documento> ordenarPorPrioridadeSJF(){        
         this.getDocumentos().sort(new PrioritySorter());        
         return this.getDocumentos();
     }
 
-    //Incompleto, ordenador sem logica
-    public List<Documento> ordernarPorPrazoSJF(){
+    public List<Documento> ordenarPorPrazoSJF(){
         this.getDocumentos().sort(Comparator.nullsLast(new DeadLineSorter()));
+        return this.getDocumentos();
+    }
+
+    public List<Documento> ordenarComTodos(){
+        this.getDocumentos().sort(new PageSorter());
+        this.getDocumentos().sort(new PrioritySorter());
+        this.getDocumentos().sort(Comparator.nullsLast(new DeadLineSorter())); // Obs: O ultimo que possui maior valor
         return this.getDocumentos();
     }
 
@@ -53,6 +57,8 @@ public class Secretaria {
         // TODO Usar as logicas de ordenacao anteriores, porem mandando
         //  antes para cada impressora, usar os dados dos vetores para calcular
         //  resultado com 2 impressoras, talvez apenas dividir os vetores em 2
+
+
         return this.getDocumentos();
     }
 }
