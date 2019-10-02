@@ -1,7 +1,6 @@
 package Actors;
 
 import Objects.Documento;
-import Objects.LeitorDeArquivo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +35,9 @@ public class Impressora {
         this.documentos.add(documento);
     }
 
-    public List<Documento> getDocumentos() { return documentos; }
+    public List<Documento> getDocumentos() {
+        return documentos;
+    }
 
     private float imprimir() {
         float tempoTotal = 0;
@@ -56,7 +57,7 @@ public class Impressora {
         while (!documentos.isEmpty()) {
             String proprietario = documentos.get(0).getProprietario().toString();
             tempoTotal = this.imprimir();
-            System.out.println("Tempo de retorno Doc" + (cont + 1) + ": " + (tempoTotal + tempoTotalTodos) + " - " + proprietario);
+            System.out.println("Tempo de retorno Doc" + (cont + 1) + ": " + (tempoTotal + tempoTotalTodos) + " seg" + " - " + proprietario);
             retornos[cont] = tempoTotal + tempoTotalTodos;
             tempoTotalTodos += tempoTotal;
             cont++;
@@ -66,11 +67,10 @@ public class Impressora {
         for (cont = 0; cont < tamanho; cont++) {
             media += retornos[cont];
         }
-        System.out.println("Media de retorno da impressora: " + (media / tamanho));
-        System.out.println("Media de resposta da impressora: " + ((media - retornos[retornos.length - 1]) / tamanho));
-        System.out.println("Tempo total de impressao da impressora: " + tempoTotalTodos);
+        System.out.println("Media de retorno da impressora: " + media / tamanho + " seg");
+        System.out.println("Media de resposta da impressora: " + (media - retornos[retornos.length - 1]) / tamanho + " seg");
+        System.out.println("Tempo total de impressao da impressora: " + tempoTotalTodos + " seg");
         System.out.println("**************************************************");
-
 
         return retornos;
         // Observacoes sobre os usos deste array retornado:
