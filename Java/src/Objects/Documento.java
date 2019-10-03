@@ -10,7 +10,12 @@ public class Documento {
     public Documento(int paginas, Cliente proprietario, LocalTime prazo) {
         this.setPaginas(paginas);
         this.setProprietario(proprietario);
-        this.setPrazo(prazo);
+        if (prazo.toSecondOfDay() == 0) {
+            LocalTime prazoMax = LocalTime.MAX;
+            this.setPrazo(prazoMax);
+        } else {
+            this.setPrazo(prazo);
+        }
     }
 
     public int getPaginas() {

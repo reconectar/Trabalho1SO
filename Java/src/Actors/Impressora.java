@@ -55,9 +55,12 @@ public class Impressora {
         System.out.println("");
         System.out.println("****************** Impressora" + this.getIdImpressora() + " ******************");
         while (!documentos.isEmpty()) {
+            int prazo = documentos.get(0).getPrazo().toSecondOfDay();
             String proprietario = documentos.get(0).getProprietario().toString();
             tempoTotal = this.imprimir();
-            System.out.println("Tempo de retorno Doc" + (cont + 1) + ": " + (tempoTotal + tempoTotalTodos) + " seg" + " - " + proprietario);
+            System.out.println("Tempo de retorno Doc" + (cont + 1) + ": "
+                    + (tempoTotal + tempoTotalTodos) + " seg" + " - "
+                    + proprietario + " - prazo: " +prazo);
             retornos[cont] = tempoTotal + tempoTotalTodos;
             tempoTotalTodos += tempoTotal;
             cont++;
