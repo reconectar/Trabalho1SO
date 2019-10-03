@@ -1,6 +1,7 @@
 package Actors;
 
 import Objects.Documento;
+import Objects.LeitorDeArquivo;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,6 +50,7 @@ public class Impressora {
     public float[] imprimirTodos() {
         float tempoTotalTodos = 0;
         int cont = 0;
+        int contEstouro = 0;
         int tamanho = documentos.size();
         float[] retornos = new float[tamanho];
         float tempoTotal;
@@ -58,10 +60,17 @@ public class Impressora {
             int prazo = documentos.get(0).getPrazo().toSecondOfDay();
             String proprietario = documentos.get(0).getProprietario().toString();
             tempoTotal = this.imprimir();
-            System.out.println("Tempo de retorno Doc" + (cont + 1) + ": "
+            System.out.print("Tempo de retorno Doc" + (cont + 1) + ": "
                     + (tempoTotal + tempoTotalTodos) + " seg" + " - "
-                    + proprietario + " - prazo: " +prazo);
+                    + proprietario + " " +
+                    "- prazo: " +prazo);
             retornos[cont] = tempoTotal + tempoTotalTodos;
+            if(retornos[cont] >= prazo){
+                System.out.print(" (Estourado)\n");
+                contEstouro++;
+            }else{
+                System.out.print("\n");
+            }
             tempoTotalTodos += tempoTotal;
             cont++;
         }
@@ -70,6 +79,7 @@ public class Impressora {
         for (cont = 0; cont < tamanho; cont++) {
             media += retornos[cont];
         }
+        System.out.println(" --- Porcentagem de estouro: " + (contEstouro*100)/tamanho + "% --- ");
         System.out.println("Media de retorno da impressora: " + media / tamanho + " seg");
         System.out.println("Media de resposta da impressora: " + (media - retornos[retornos.length - 1]) / tamanho + " seg");
         System.out.println("Tempo total de impressao da impressora: " + tempoTotalTodos + " seg");

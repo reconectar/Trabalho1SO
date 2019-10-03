@@ -24,7 +24,7 @@ public class LeitorDeArquivo {
 		return this.numeroDeDocumentos;
 	}
 
-	private void setNumeroInicialDeDocumentos(int numeroDeDocumentos) {
+	private void setNumeroDeDocumentos(int numeroDeDocumentos) {
 		this.numeroDeDocumentos = numeroDeDocumentos;
 	}
 
@@ -35,7 +35,7 @@ public class LeitorDeArquivo {
 		BufferedReader br = new BufferedReader(isr);
 
 		String s = br.readLine();
-		setNumeroInicialDeDocumentos(Integer.parseInt(s));
+		setNumeroDeDocumentos(Integer.parseInt(s));
 
 		List<Documento> documentos = new ArrayList<Documento>();
 
