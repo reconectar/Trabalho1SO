@@ -14,7 +14,7 @@ public class Secretaria {
     private List<Documento> documentos;
 
     private Secretaria() {
-        documentos = new ArrayList<Documento>();
+        documentos = new ArrayList<>();
     }
 
     public static Secretaria getInstance() {
@@ -22,7 +22,7 @@ public class Secretaria {
     }
 
     //Metodo para testes
-    public List<Documento> getDocumentos() {
+    private List<Documento> getDocumentos() {
         return documentos;
     }
 
@@ -31,17 +31,17 @@ public class Secretaria {
     }
 
     //Metodos para ordenacao
-    public List<Documento> ordenarPorPaginasSJF() {
+    public List<Documento> menorPaginasPrimeiro() {
         this.getDocumentos().sort(new PageSorter());
         return this.getDocumentos();
     }
 
-    public List<Documento> ordenarPorPrioridadeSJF() {
+    public List<Documento> maiorPrioridadePrimeiro() {
         this.getDocumentos().sort(new PrioritySorter());
         return this.getDocumentos();
     }
 
-    public List<Documento> ordenarPorPrazoSJF() {
+    public List<Documento> menorPrazoPrimeiro() {
         this.getDocumentos().sort(Comparator.nullsLast(new DeadLineSorter()));
         return this.getDocumentos();
     }
