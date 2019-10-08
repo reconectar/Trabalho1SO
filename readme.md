@@ -24,8 +24,8 @@ Velocidade das Impressoras:
 [![SourcesRoot](https://github.com/reconectar/Trabalho1SO/blob/master/imgs/1.jpeg "SourcesRoot")](Github "SourcesRoot")
 
 * 3- Mova a classe main para fora do pacote App (movida para src no exemplo)
-[![SourcesRoot](https://github.com/reconectar/Trabalho1SO/tree/master/imgs/2.jpeg "Move1")](Github "SourcesRoot")
+[![SourcesRoot](https://github.com/reconectar/Trabalho1SO/blob/master/imgs/2.jpeg "Move1")](Github "SourcesRoot")
 
 * 4- Mova de volta para o pacote App (A refatoração do InteliJ corrigirá o bug)
-[![SourcesRoot](https://github.com/reconectar/Trabalho1SO/tree/master/imgs/3.jpeg "Move2")](Github "SourcesRoot")
+[![SourcesRoot](https://github.com/reconectar/Trabalho1SO/blob/master/imgs/3.jpeg "Move2")](Github "SourcesRoot")
 
